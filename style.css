@@ -1,0 +1,104 @@
+/*style*/
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+
+* {
+	padding: 0 auto;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #333333;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*formatação cabeçalho*/
+
+div#div-cabeçalho {
+	border-bottom: 1px solid #444444;
+	background-color: #444444;
+}
+
+#cabeçalho {
+	float: right;
+}
+
+#icone {
+	padding: 5px;
+}
+
+nav#menu ul {
+	list-style: none;
+	padding: 10px;
+	height: 55;
+}	
+
+nav#menu li {
+	display: inline;
+	padding: 10px;
+}
+
+nav#menu ul li a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	height: 55;
+}
+
+nav#menu ul li a:hover {
+	transition: background-color 0.4s;
+	border-bottom: 1px solid #222;
+}
+
+
+/*fomaração section*/
+
+div#div-foto {
+	margin: 30px;
+}
+
+figure#fig-perfil {
+	background-color: #3f3f3f;
+	border-radius: 250px;
+	transition: background-color 0.4s;
+	margin: auto;
+	width: 250px;
+	height: 250px;
+	
+}
+
+img#foto-perfil {
+	position: relative;
+	border-radius: 250px;
+	transition: background-color 0.4s;
+	margin: auto;
+	width: 250px;
+	height: 250px;
+
+}
+
+div.caixa:hover {
+	background-color: #444444;
+}
+
+/*formatação rodapé*/ 
+
+footer {
+	text-align: center;
+	background-color: #333333;
+	border-top: 1px solid #444444;
+
+}
+
+footer h5 {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+  
+  
+  
+  
