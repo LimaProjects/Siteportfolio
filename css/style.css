@@ -1,122 +1,169 @@
 /*style*/
 @charset "utf-8";
 
-
 * {
 	padding: 0 auto;
 	margin: 0;
 	box-sizing: border-box;
 }
 body {
-	background-color: #333333;
 	color: white;
-	font-family: Arial;
-	font-size: 10pt;
-	background-color: rgb(90, 90, 226);
+	background-color: #202637;
+	font-family: TradeGothicforNike365-BdCn,Helvetica!important;
+	font-size: .900em;
 }
 
 /*formatação cabeçalho*/
 
 div#div-cabeçalho {
-	border-bottom: 1px solid #444444;
-	background-color: #111;
-	border-bottom: 1px solid rgb(255, 255, 255);
+	background-color:  #202637;
+	border-bottom: 1px solid #535c76;
 }
 
 #cabeçalho {
-	float: right;
+	text-align: right;
+	margin-right: 20px;
 }
 
 #icone {
+	display: block;
+	position: absolute;
 	padding: 5px;
+	color: #f4f4fc;
 }
 
 nav#menu ul {
 	list-style: none;
-	padding: 10px;
-	height: 55;
 }	
 
 nav#menu li {
 	display: inline;
-
+	font-family: TradeGothicforNike365-BdCn,Helvetica!important;
 }
 
 nav#menu ul li a {
 	display: inline-block;
-	color: #fff;
 	text-decoration: none;
-	padding: 10px;
+	padding: 15px;
+	color:white;
+	font-family: TradeGothicforNike365-BdCn,Helvetica!important;
 }
 
+nav#menu ul li a:hover {
+	border-bottom: 1px solid rgb(41, 116, 255);
+	border-radius: 1px 1px;
+	display: inline;
 
-/*fomaração section*/
-
-section#foto {
-	margin: 30px;
 }
 
-#div-perfil {
-	background-color: rgb(218, 218, 218);
-	border-radius: 5px;
-	margin: 100px auto 20px auto;
-	width: 400px;
-	height: 250px;
+/*fomartação section*/
+
+#container {
+	margin: auto;
+	background-color:  #364366;
+	align-items: center;
+	max-width: 1100px;
 }
 
-#link-img {
-	margin: 20px;
-}
-
-
-
-img#foto-perfil {
-	display: block;
-	margin-top: -80px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 150px;
-	height: 150px;
-	border-radius: 100%;
-	border: 5px solid rgb(63, 63, 63);
-}
-section#foto h1 {
-	color: black;
+#container h2 {
+	background-color:#364366;
 	text-align: center;
+	padding: 20px;
 }
 
-#div-sobre {
-	background-color: rgb(136, 175, 204);
-	position: relative;
-	display: block;	
-	margin: 5px 10px 10px 10px;
-	border-radius: 5px;
-	height: 100px;
-}
-
-#div-sobre ol#ol-sobre {
+#container p {
+	color: #ffffff;
+	font-size: 12pt;
 	padding: 10px;
 }
 
-#div-sobre ol#ol-sobre li {
-	display: block;
-	color: #111;
-	padding: 2px;
+div#c-html {
+	display: inline-flex;
+	margin: 20px;
+
 }
 
-div.caixa:hover {
-	background-color: #444444;
+#c-html img {
+	max-width: 200px;
+}
+
+#c-html h3 {
+	margin: 10px;
+}
+
+div#c-css {
+	display: inline-flex;
+	margin: 20px;	
+}
+
+#c-css img {
+	max-width: 200px;
+}
+
+#c-css h3 {
+	margin: 10px;
+}
+
+div#c-java {
+	display: inline-flex;
+	margin: 20px;	
+}
+
+#c-java img {
+	max-width: 200px;
+}
+
+#c-java h3 {
+	margin: 10px;
+}
+
+/*redes*/
+
+div#redes {
+	background-color:  #1c212e;
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+}
+
+#redes ol {
+	color:white;
+	margin: 10px;
+}
+
+#redes ol li {
+	list-style: none;
+	padding-top: 30px;
+}
+
+footer h5 {
+	color: rgb(154, 154, 255);
 }
 
 /*formatação rodapé*/ 
 
 footer {
-	border-top: 1px solid white;
-	text-align: center;
-	background-color: #111;
+	display: inline-flex;
+	background-color: #12161f;
+	width: 100%;
+	justify-content: space-between;
 }
 
-footer h5 {
-	padding-bottom: 10px;
-	padding-top: 10px;
+footer h6 {
+	text-align: left;
+	color:white;
+	padding: 10px;
+	margin: 10px;
 }
+
+#img-f {
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+}
+
+#img-f a i {
+	margin: 0px 10px 0px 10px;
+	color: white;
+}
+  
